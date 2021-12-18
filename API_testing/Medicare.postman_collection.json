@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "b28e9298-72be-4ee0-a03c-a34e218e556a",
+		"name": "Medicare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cat1_Products",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// response from the request",
+							"var jsonData=pm.response.json();",
+							"",
+							"",
+							"// retrieve a sample Medicine Product info to validate from environment",
+							"var sampleChkProductJson = JSON.parse(pm.environment.get(\"SampleCat1Product\"));",
+							"",
+							"",
+							"// response code",
+							"var respStatus = pm.response.code;",
+							"",
+							"// Validate Response Code",
+							"pm.test(\"Validate Status Code = 200\", function () {",
+							"        pm.response.to.have.status(200);",
+							"    });",
+							"",
+							"if ( respStatus != 200 ) {",
+							"    console.log(\"ERROR: Response is NOT OK. Skip other validations!\");",
+							"    return ;",
+							"}",
+							"else {",
+							"",
+							"    /* Validate key elements of response body",
+							"        - body size > 0",
+							"        - number of products returned = 2",
+							"        - compare name, brand, unitPrice for sampled data of product defined in env. var ",
+							"    */",
+							"",
+							"    pm.test(\"Validate resp.body: size > 0\", function () {",
+							"        pm.expect(pm.response.responseSize).to.be.above(0);",
+							"    });",
+							"",
+							"    console.log(\"Number of Product(s) returned:\" + Object.keys(jsonData).length );",
+							"",
+							"    pm.test(\"Validate 2 products returned\", function () {",
+							"        pm.expect(Object.keys(jsonData).length).to.be.equal(2);",
+							"    });",
+							"",
+							"    var sampleData;",
+							"    ",
+							"    // Our Sampled User is ..",
+							"    console.log(\"Sampled Product: \" + sampleChkProductJson.name );",
+							"    console.log(\"- brand: \" + sampleChkProductJson.brand );",
+							"    console.log(\"- price: \" + sampleChkProductJson.unitPrice );",
+							"",
+							"    for ( const item in jsonData) {",
+							"",
+							"       var Data = jsonData[item];   ",
+							"        if (Data.name == sampleChkProductJson.name) {",
+							"            sampledData = Data;",
+							"            break;",
+							"        }",
+							"    }",
+							"",
+							"    pm.test(\"Sampled Product [\"+ sampleChkProductJson.name + \"] retrieved correctly\", function() {",
+							"        pm.expect(sampledData.name).to.equals(sampleChkProductJson.name);",
+							"        pm.expect(sampledData.brand).to.equals(sampleChkProductJson.brand);",
+							"        pm.expect(sampledData.unitPrice).to.equals(sampleChkProductJson.unitPrice);",
+							"    }) ;",
+							"",
+							"}",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/medicare/json/data/category/1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"category",
+						"1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-19T00:12:10 MYT" name="Medicare Test Suite" finished-at="2021-12-19T00:13:02 MYT" duration-ms="52318">
+    <groups>
+      <group name="invalidLoginGrp">
+        <method signature="LoginTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:testSuites.LoginTest@f0da945]" name="invalidLoginTest" class="testSuites.LoginTest"/>
+      </group> <!-- invalidLoginGrp -->
+      <group name="addProductToCart">
+        <method signature="ShoppingTest.buy2ProductsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:3, instance:testSuites.ShoppingTest@2e3967ea]" name="buy2ProductsTest" class="testSuites.ShoppingTest"/>
+      </group> <!-- addProductToCart -->
+      <group name="validUserLoginGrp">
+        <method signature="LoginTest.validUserLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:1, instance:testSuites.LoginTest@f0da945]" name="validUserLoginTest" class="testSuites.LoginTest"/>
+      </group> <!-- validUserLoginGrp -->
+      <group name="validAdminLoginGrp">
+        <method signature="LoginTest.validAdminLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:2, instance:testSuites.LoginTest@f0da945]" name="validAdminLoginTest" class="testSuites.LoginTest"/>
+      </group> <!-- validAdminLoginGrp -->
+    </groups>
+    <test started-at="2021-12-19T00:12:10 MYT" name="Login-Only Tests" finished-at="2021-12-19T00:12:37 MYT" duration-ms="26472">
+      <class name="testSuites.LoginTest">
+        <test-method is-config="true" signature="classLevelSetup(java.lang.String,java.lang.String)[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:10 MYT" name="classLevelSetup" description="Setup the webdriver, either local or grid" finished-at="2021-12-19T00:12:11 MYT" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[False]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[True]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method is-config="true" signature="methodLevelSetup(java.lang.String)[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:11 MYT" name="methodLevelSetup" finished-at="2021-12-19T00:12:11 MYT" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8081]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:11 MYT" name="invalidLoginTest" description="Invalid login" data-provider="invalidLogin" finished-at="2021-12-19T00:12:16 MYT" duration-ms="4525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong@simplilearn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testTEST!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testSuites.LoginTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="methodLevelSetup(java.lang.String)[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:16 MYT" name="methodLevelSetup" finished-at="2021-12-19T00:12:16 MYT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8081]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:16 MYT" name="invalidLoginTest" description="Invalid login" data-provider="invalidLogin" finished-at="2021-12-19T00:12:20 MYT" duration-ms="4061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1@simplilearn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WRONGPass!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void testSuites.LoginTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="methodLevelSetup(java.lang.String)[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:20 MYT" name="methodLevelSetup" finished-at="2021-12-19T00:12:20 MYT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8081]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="validUserLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:1, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:20 MYT" name="validUserLoginTest" description="Valid user login" data-provider="validUserLogin" finished-at="2021-12-19T00:12:26 MYT" duration-ms="6258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1@simplilearn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testTEST!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test User1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void testSuites.LoginTest.validUserLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserLoginTest -->
+        <test-method is-config="true" signature="methodLevelSetup(java.lang.String)[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:26 MYT" name="methodLevelSetup" finished-at="2021-12-19T00:12:26 MYT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8081]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="validAdminLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:2, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:26 MYT" name="validAdminLoginTest" description="Valid admin login" data-provider="validAdminLogin" finished-at="2021-12-19T00:12:34 MYT" duration-ms="7239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vikas Kashyap]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void testSuites.LoginTest.validAdminLoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAdminLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testSuites.LoginTest@f0da945]" started-at="2021-12-19T00:12:34 MYT" name="teardown" description="Close the report &amp; driver" finished-at="2021-12-19T00:12:37 MYT" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testSuites.LoginTest -->
+    </test> <!-- Login-Only Tests -->
+    <test started-at="2021-12-19T00:12:37 MYT" name="Shopping Test" finished-at="2021-12-19T00:13:02 MYT" duration-ms="25678">
+      <class name="testSuites.ShoppingTest">
+        <test-method is-config="true" signature="classLevelSetup(java.lang.String,java.lang.String)[pri:0, instance:testSuites.ShoppingTest@2e3967ea]" started-at="2021-12-19T00:12:37 MYT" name="classLevelSetup" description="Setup the webdriver, either local or grid" finished-at="2021-12-19T00:12:37 MYT" duration-ms="323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[False]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[False]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classLevelSetup -->
+        <test-method is-config="true" signature="methodLevelSetup(java.lang.String)[pri:0, instance:testSuites.ShoppingTest@2e3967ea]" started-at="2021-12-19T00:12:37 MYT" name="methodLevelSetup" finished-at="2021-12-19T00:12:37 MYT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:8081]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodLevelSetup -->
+        <test-method signature="buy2ProductsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:3, instance:testSuites.ShoppingTest@2e3967ea]" started-at="2021-12-19T00:12:37 MYT" name="buy2ProductsTest" description="add Product to cart" data-provider="buy2Products" finished-at="2021-12-19T00:12:59 MYT" duration-ms="22282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1@simplilearn.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testTEST!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Combiflame]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amoxicillin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[public void testSuites.ShoppingTest.buy2ProductsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buy2ProductsTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testSuites.ShoppingTest@2e3967ea]" started-at="2021-12-19T00:12:59 MYT" name="teardown" description="Close the report &amp; driver" finished-at="2021-12-19T00:13:02 MYT" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testSuites.ShoppingTest -->
+    </test> <!-- Shopping Test -->
+  </suite> <!-- Medicare Test Suite -->
+</testng-results>

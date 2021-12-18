@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Medicare Test Suite" verbose="2">
+
+	<!-- <parameter name="aws_host" value="http://ec2-3-84-10-104.compute-1.amazonaws.com:8080" 
+		/> -->
+	<parameter name="aws_host" value="http://localhost:8081" />
+	<parameter name="headlessFlag" value="False" />
+
+	<test name="Login-Only Tests" enabled="true">
+		<parameter name="loginOnlyFlag" value="True" />
+		<classes>
+			<class name="testSuites.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name="Shopping Test" enabled="true">
+			<parameter name="loginOnlyFlag" value="False" />
+		<classes>
+			<class name="testSuites.ShoppingTest" />
+		</classes>
+	</test>
+	
+
+
+	<listeners>
+		<listener class-name="utils.TestListener" />
+	</listeners>
+
+
+
+
+
+
+
+
+
+</suite> <!-- Suite -->
