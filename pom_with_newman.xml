@@ -116,6 +116,29 @@
 				</configuration>
 			</plugin>
 			
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>1.6.0</version>
+    <executions>
+        <execution>
+            <id>integration-tests</id>
+            <phase>integration-test</phase>
+            <goals>
+                <goal>exec</goal>
+            </goals>
+            <configuration>
+                <executable>
+                    <!-- PATH_TO_NEWMAN_EXECUTABLE-->
+                    /usr/local/bin/newman
+                </executable>
+                <commandlineArgs>
+                    run -n 2 -e API_testing/Env_Medicare.postman_environment.json API_testing/Medicare.postman_collection.json --reporters=htmlextra --reporter-htmlextra-export "./test-output/newman-reports/medicare_newman.html"
+                </commandlineArgs>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>			
 			
 		</plugins>
 	</build>

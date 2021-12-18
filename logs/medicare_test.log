@@ -586,3 +586,165 @@
 2021Dec19 02:41:18.736 INFO  Test [buy2ProductsTest] is succeed!
 2021Dec19 02:41:18.736 INFO  Ending test.
 2021Dec19 02:41:21.813 INFO  I am in onFinish method Shopping Test
+2021Dec19 03:05:12.233 INFO  I am in onStart method Login-Only Tests
+2021Dec19 03:05:12.249 INFO  Starting test!
+2021Dec19 03:05:12.249 DEBUG testLoginOnlyFlag is [true]
+2021Dec19 03:05:13.167 INFO  WebDriver created
+2021Dec19 03:05:13.188 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:05:13.189 INFO  Test [invalidLoginTest] is starting...
+2021Dec19 03:05:13.308 INFO  Opening Medicare website..
+2021Dec19 03:05:13.590 INFO  Going to Login Page..
+2021Dec19 03:05:14.775 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec19 03:05:16.609 INFO  Verifying invalid login
+2021Dec19 03:05:17.690 INFO  Test [invalidLoginTest] is succeed!
+2021Dec19 03:05:17.692 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:05:17.692 INFO  Test [invalidLoginTest] is starting...
+2021Dec19 03:05:17.692 INFO  Opening Medicare website..
+2021Dec19 03:05:17.798 INFO  Going to Login Page..
+2021Dec19 03:05:18.933 INFO  Trying to login using [testuser1@simplilearn.com/WRONGPass!]
+2021Dec19 03:05:20.707 INFO  Verifying invalid login
+2021Dec19 03:05:21.753 INFO  Test [invalidLoginTest] is succeed!
+2021Dec19 03:05:21.755 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:05:21.755 INFO  Test [validUserLoginTest] is starting...
+2021Dec19 03:05:21.755 INFO  Opening Medicare website..
+2021Dec19 03:05:21.867 INFO  Going to Login Page..
+2021Dec19 03:05:23.029 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec19 03:05:25.797 INFO  Going to Logged-in Landing Page..
+2021Dec19 03:05:25.797 INFO  Verifying valid user login
+2021Dec19 03:05:26.840 DEBUG Going to logout
+2021Dec19 03:05:26.840 INFO  Going to logout
+2021Dec19 03:05:27.975 INFO  Test [validUserLoginTest] is succeed!
+2021Dec19 03:05:27.977 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:05:27.977 INFO  Test [validAdminLoginTest] is starting...
+2021Dec19 03:05:27.977 INFO  Opening Medicare website..
+2021Dec19 03:05:28.056 INFO  Going to Login Page..
+2021Dec19 03:05:29.219 INFO  Trying to login using [vk@gmail.com/admin]
+2021Dec19 03:05:31.964 INFO  Going to Logged-in Landing Page..
+2021Dec19 03:05:31.965 INFO  Verifying valid admin login
+2021Dec19 03:05:34.051 INFO  Going to logout
+2021Dec19 03:05:35.163 INFO  Test [validAdminLoginTest] is succeed!
+2021Dec19 03:05:35.164 INFO  Ending test.
+2021Dec19 03:05:38.241 INFO  I am in onFinish method Login-Only Tests
+2021Dec19 03:05:38.671 INFO  I am in onStart method Shopping Test
+2021Dec19 03:05:38.672 INFO  Starting test!
+2021Dec19 03:05:38.672 DEBUG testLoginOnlyFlag is [true]
+2021Dec19 03:05:38.977 INFO  WebDriver created
+2021Dec19 03:05:38.978 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:05:38.979 INFO  Test [buy2ProductsTest] is starting...
+2021Dec19 03:05:38.979 INFO  Opening Medicare website..
+2021Dec19 03:05:39.335 INFO  Going to Login Page..
+2021Dec19 03:05:40.519 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec19 03:05:43.343 INFO  Going to Logged-in Landing Page..
+2021Dec19 03:05:43.344 INFO  Going to click View Products nagivation menu
+2021Dec19 03:05:43.989 INFO  Select show ALL entries of product
+2021Dec19 03:05:45.064 INFO  Going to add [Combiflame] to cart..
+2021Dec19 03:05:45.263 DEBUG Product [Combiflame] found & added to cart!
+2021Dec19 03:05:45.263 DEBUG ExpectedAddedURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:05:45.278 DEBUG DriverCurrentURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:05:45.285 INFO  Added Product [Combiflame] to cart!
+2021Dec19 03:05:47.285 INFO  Transit to Cart Page..
+2021Dec19 03:05:48.286 INFO  Go back shopping..
+2021Dec19 03:05:48.915 INFO  Going to add [Amoxicillin] to cart..
+2021Dec19 03:05:50.108 DEBUG Product [Amoxicillin] found & added to cart!
+2021Dec19 03:05:50.108 DEBUG ExpectedAddedURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:05:50.112 DEBUG DriverCurrentURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:05:50.116 INFO  Added Product [Amoxicillin] to cart!
+2021Dec19 03:05:52.116 INFO  Transit to Cart Page..
+2021Dec19 03:05:52.117 INFO  Checking out..
+2021Dec19 03:05:52.755 INFO  Validate is Shipping Page.. 
+2021Dec19 03:05:53.350 INFO  Selecting first address.. 
+2021Dec19 03:05:53.895 INFO  Validate is Payment Page.. 
+2021Dec19 03:05:54.423 INFO  Going to validate final payment sum..
+2021Dec19 03:05:54.446 DEBUG valFinalPaymentSum():: price [22.0]
+2021Dec19 03:05:54.455 DEBUG valFinalPaymentSum():: price [54.0]
+2021Dec19 03:05:54.455 DEBUG valFinalPaymentSum():: final sum computed [76.0]
+2021Dec19 03:05:55.007 DEBUG valFinalPaymentSum():: final sum shown on page [₹ 76.0/-]
+2021Dec19 03:05:55.527 INFO  Going to insert payment card details..
+2021Dec19 03:05:57.743 INFO  Going to proceed confirm payment..
+2021Dec19 03:05:58.377 INFO  Validate order is confirmed..
+2021Dec19 03:05:58.902 INFO  Return to shopping
+2021Dec19 03:05:59.527 INFO  Going to logout
+2021Dec19 03:06:01.225 INFO  Test [buy2ProductsTest] is succeed!
+2021Dec19 03:06:01.225 INFO  Ending test.
+2021Dec19 03:06:04.295 INFO  I am in onFinish method Shopping Test
+2021Dec19 03:07:57.260 INFO  I am in onStart method Login-Only Tests
+2021Dec19 03:07:57.275 INFO  Starting test!
+2021Dec19 03:07:57.275 DEBUG testLoginOnlyFlag is [true]
+2021Dec19 03:07:58.108 INFO  WebDriver created
+2021Dec19 03:07:58.132 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:07:58.133 INFO  Test [invalidLoginTest] is starting...
+2021Dec19 03:07:58.260 INFO  Opening Medicare website..
+2021Dec19 03:07:58.646 INFO  Going to Login Page..
+2021Dec19 03:07:59.830 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec19 03:08:01.642 INFO  Verifying invalid login
+2021Dec19 03:08:02.731 INFO  Test [invalidLoginTest] is succeed!
+2021Dec19 03:08:02.732 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:08:02.732 INFO  Test [invalidLoginTest] is starting...
+2021Dec19 03:08:02.733 INFO  Opening Medicare website..
+2021Dec19 03:08:02.846 INFO  Going to Login Page..
+2021Dec19 03:08:03.977 INFO  Trying to login using [testuser1@simplilearn.com/WRONGPass!]
+2021Dec19 03:08:05.739 INFO  Verifying invalid login
+2021Dec19 03:08:06.805 INFO  Test [invalidLoginTest] is succeed!
+2021Dec19 03:08:06.807 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:08:06.808 INFO  Test [validUserLoginTest] is starting...
+2021Dec19 03:08:06.808 INFO  Opening Medicare website..
+2021Dec19 03:08:06.917 INFO  Going to Login Page..
+2021Dec19 03:08:08.099 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec19 03:08:10.899 INFO  Going to Logged-in Landing Page..
+2021Dec19 03:08:10.900 INFO  Verifying valid user login
+2021Dec19 03:08:11.955 DEBUG Going to logout
+2021Dec19 03:08:11.956 INFO  Going to logout
+2021Dec19 03:08:13.108 INFO  Test [validUserLoginTest] is succeed!
+2021Dec19 03:08:13.109 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:08:13.109 INFO  Test [validAdminLoginTest] is starting...
+2021Dec19 03:08:13.109 INFO  Opening Medicare website..
+2021Dec19 03:08:13.184 INFO  Going to Login Page..
+2021Dec19 03:08:14.350 INFO  Trying to login using [vk@gmail.com/admin]
+2021Dec19 03:08:17.151 INFO  Going to Logged-in Landing Page..
+2021Dec19 03:08:17.152 INFO  Verifying valid admin login
+2021Dec19 03:08:19.232 INFO  Going to logout
+2021Dec19 03:08:20.354 INFO  Test [validAdminLoginTest] is succeed!
+2021Dec19 03:08:20.355 INFO  Ending test.
+2021Dec19 03:08:23.434 INFO  I am in onFinish method Login-Only Tests
+2021Dec19 03:08:23.680 INFO  I am in onStart method Shopping Test
+2021Dec19 03:08:23.681 INFO  Starting test!
+2021Dec19 03:08:23.681 DEBUG testLoginOnlyFlag is [true]
+2021Dec19 03:08:23.995 INFO  WebDriver created
+2021Dec19 03:08:23.996 DEBUG appURL is : [http://localhost:8081/medicare/]
+2021Dec19 03:08:23.997 INFO  Test [buy2ProductsTest] is starting...
+2021Dec19 03:08:23.997 INFO  Opening Medicare website..
+2021Dec19 03:08:24.346 INFO  Going to Login Page..
+2021Dec19 03:08:25.529 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec19 03:08:28.380 INFO  Going to Logged-in Landing Page..
+2021Dec19 03:08:28.381 INFO  Going to click View Products nagivation menu
+2021Dec19 03:08:29.042 INFO  Select show ALL entries of product
+2021Dec19 03:08:30.134 INFO  Going to add [Combiflame] to cart..
+2021Dec19 03:08:30.297 DEBUG Product [Combiflame] found & added to cart!
+2021Dec19 03:08:30.297 DEBUG ExpectedAddedURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:08:30.306 DEBUG DriverCurrentURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:08:30.312 INFO  Added Product [Combiflame] to cart!
+2021Dec19 03:08:32.313 INFO  Transit to Cart Page..
+2021Dec19 03:08:33.313 INFO  Go back shopping..
+2021Dec19 03:08:33.972 INFO  Going to add [Amoxicillin] to cart..
+2021Dec19 03:08:35.166 DEBUG Product [Amoxicillin] found & added to cart!
+2021Dec19 03:08:35.166 DEBUG ExpectedAddedURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:08:35.173 DEBUG DriverCurrentURL [http://localhost:8081/medicare/cart/show?result=added]
+2021Dec19 03:08:35.176 INFO  Added Product [Amoxicillin] to cart!
+2021Dec19 03:08:37.177 INFO  Transit to Cart Page..
+2021Dec19 03:08:37.177 INFO  Checking out..
+2021Dec19 03:08:37.801 INFO  Validate is Shipping Page.. 
+2021Dec19 03:08:38.333 INFO  Selecting first address.. 
+2021Dec19 03:08:38.984 INFO  Validate is Payment Page.. 
+2021Dec19 03:08:39.513 INFO  Going to validate final payment sum..
+2021Dec19 03:08:39.541 DEBUG valFinalPaymentSum():: price [22.0]
+2021Dec19 03:08:39.550 DEBUG valFinalPaymentSum():: price [54.0]
+2021Dec19 03:08:39.550 DEBUG valFinalPaymentSum():: final sum computed [76.0]
+2021Dec19 03:08:40.080 DEBUG valFinalPaymentSum():: final sum shown on page [₹ 76.0/-]
+2021Dec19 03:08:40.606 INFO  Going to insert payment card details..
+2021Dec19 03:08:42.820 INFO  Going to proceed confirm payment..
+2021Dec19 03:08:43.457 INFO  Validate order is confirmed..
+2021Dec19 03:08:44.007 INFO  Return to shopping
+2021Dec19 03:08:44.619 INFO  Going to logout
+2021Dec19 03:08:46.306 INFO  Test [buy2ProductsTest] is succeed!
+2021Dec19 03:08:46.306 INFO  Ending test.
+2021Dec19 03:08:49.383 INFO  I am in onFinish method Shopping Test
