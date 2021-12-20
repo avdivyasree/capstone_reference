@@ -36,6 +36,7 @@ public class ShoppingTest extends BaseTest {
 			.transitToCartPage()
 			.sleep(1000)
 			.clickContinueShopping()
+			.sleep(1000)
 			.addProductToCart(productName2)
 			.transitToCartPage()
 			.clickCheckout()
