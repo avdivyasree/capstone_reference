@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Platform;
@@ -23,6 +22,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.HomePage;
 import pageObjects.LandingPage;
 import utils.MyLog;
+
+
 
 
 public class BaseTest {
@@ -120,6 +121,7 @@ public class BaseTest {
 	        	MyLog.info("Setup():: Running in headless chrome mode.");
 	        }
 	        options.addArguments("--disable-gpu");
+	        options.addArguments("--disable-crash-reporter");
 	        options.addArguments("--disable-dev-shm-usage");
 	        options.addArguments("--no-sandbox");		// Jenkins on AWS most likely run under root
 	        options.addArguments("--window-size=1400,800");  
