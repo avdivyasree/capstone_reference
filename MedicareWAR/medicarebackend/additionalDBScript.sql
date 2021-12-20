@@ -1,3 +1,9 @@
+create user medadmin identified by 'Minion@123';
+
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES, CREATE VIEW, EVENT, TRIGGER, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, EXECUTE ON medicare.* TO 'medadmin'@'%' ;
+
+use medicare;
+
 INSERT INTO User_detail
 (first_name, last_name, role, enabled, password, email, contact_number)
 VALUES ('Test', 'User1', 'USER', true, '$2a$10$cgFMapKYpc4Ixd04FXoMA.mLmGjeORJYcJNB4cexw4KaWTFmPCArm', 'testuser1@simplilearn.com', '1234567890');

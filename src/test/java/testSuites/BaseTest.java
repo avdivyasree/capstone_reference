@@ -82,6 +82,8 @@ public class BaseTest {
 		
 		if (gridFlag) {
 
+			// -- for future improvement
+			
 			String sURL = "http://localhost:4444/wd/hub";
 			// String sURL = "http://192.168.100.190:4444/wd/hub";
 			DesiredCapabilities cap = new DesiredCapabilities();

@@ -6,7 +6,7 @@
 	<!-- <parameter name="aws_host" value="http://ec2-3-84-10-104.compute-1.amazonaws.com:8080" 
 		/> -->
 	<parameter name="aws_host" value="http://localhost:8081" />
-	<parameter name="headlessFlag" value="False" />
+	<parameter name="headlessFlag" value="True" />
 
 	<test name="Login-Only Tests" enabled="true">
 		<parameter name="loginOnlyFlag" value="True" />

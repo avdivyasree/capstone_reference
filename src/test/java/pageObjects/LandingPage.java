@@ -109,12 +109,21 @@ public class LandingPage extends BasePage {
 
 				String pName = ProdList_Name.get(i).getText();
 
-				System.out.println("DEBUG:AddProduct()::[" + i + "] Product Name is " + pName);
+				MyLog.debug("addProductToCart()::iterating..[" + i + "] - " + pName);
 
 				// MATCHED
 				if ( pName.equals(product) ) {
-					// To click add to cart
-					ProdList_AddToCart.get(i).click();
+					
+					try {
+						Thread.sleep(1000);
+						// To click add to cart
+						ProdList_AddToCart.get(i).click();
+					} catch (InterruptedException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+
+					
 					MyLog.debug("Product [" + product + "] found & added to cart!");
 
 					// Confirm added
