@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Medicare Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
-  <parameter name="headlessFlag" value="False"/>
-  <parameter name="aws_host" value="http://localhost:8081"/>
+  <parameter name="headlessFlag" value="True"/>
+  <parameter name="aws_host" value="http://http://ec2-54-144-238-24.compute-1.amazonaws.com/:8081"/>
   <listeners>
     <listener class-name="utils.TestListener"/>
   </listeners>
+  <test thread-count="5" name="Login-Only Tests(failed)" verbose="2">
+    <parameter name="loginOnlyFlag" value="True"/>
+    <classes>
+      <class name="testSuites.LoginTest">
+        <methods>
+          <include name="validUserLoginTest" invocation-numbers="0"/>
+          <include name="methodLevelSetup"/>
+          <include name="classLevelSetup"/>
+          <include name="invalidLoginTest" invocation-numbers="0 1"/>
+          <include name="validAdminLoginTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testSuites.LoginTest -->
+    </classes>
+  </test> <!-- Login-Only Tests(failed) -->
   <test thread-count="5" name="Shopping Test(failed)" verbose="2">
     <parameter name="loginOnlyFlag" value="False"/>
     <classes>
       <class name="testSuites.ShoppingTest">
         <methods>
+          <include name="buy2ProductsTest" invocation-numbers="0"/>
           <include name="methodLevelSetup"/>
           <include name="classLevelSetup"/>
-          <include name="buy2Products" invocation-numbers="0"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- testSuites.ShoppingTest -->

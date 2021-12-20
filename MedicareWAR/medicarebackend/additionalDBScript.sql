@@ -1,4 +1,4 @@
-create user medadmin identified by 'Minion@123';
+create user medadmin identified by 'Minions@123';
 
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES, CREATE VIEW, EVENT, TRIGGER, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, EXECUTE ON medicare.* TO 'medadmin'@'%' ;
 
