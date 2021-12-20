@@ -132,3 +132,28 @@
 2021Dec20 14:37:41.691 INFO  Test [validAdminLoginTest] is succeed!
 2021Dec20 14:37:41.692 INFO  Ending test.
 2021Dec20 14:37:44.776 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 15:32:07.925 INFO  I am in onStart method Login-Only Tests
+2021Dec20 15:32:07.940 INFO  Starting test!
+2021Dec20 15:32:07.940 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 15:32:08.592 INFO  WebDriver created
+2021Dec20 15:32:08.607 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 15:32:08.611 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 15:32:08.734 INFO  Opening Medicare website..
+2021Dec20 15:32:11.685 INFO  Going to Login Page..
+2021Dec20 15:32:13.128 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec20 15:32:15.454 INFO  Verifying invalid login
+2021Dec20 15:32:16.505 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 15:32:16.508 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 15:32:16.508 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 15:32:16.509 INFO  Opening Medicare website..
+2021Dec20 15:32:16.820 INFO  Going to Login Page..
+2021Dec20 15:32:18.241 INFO  Trying to login using [testuser1@simplilearn.com/WRONGPass!]
+2021Dec20 15:32:20.560 INFO  Verifying invalid login
+2021Dec20 15:32:21.606 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 15:32:21.609 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 15:32:21.609 INFO  Test [validUserLoginTest] is starting...
+2021Dec20 15:32:21.610 INFO  Opening Medicare website..
+2021Dec20 15:32:21.941 INFO  Going to Login Page..
+2021Dec20 15:32:23.349 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 15:32:26.710 INFO  Going to Logged-in Landing Page..
+2021Dec20 15:32:26.710 INFO  Verifying valid user login

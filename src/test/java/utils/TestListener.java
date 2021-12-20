@@ -63,7 +63,7 @@ public class TestListener extends BaseTest implements ITestListener {
     
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-        MyLog.info(getTestMethodName(iTestResult) + "::" + "Test is skipped.");
+        MyLog.info(getTestMethodName(iTestResult) + "::" +  " test is skipped.");
         //ExtentReports log operation for skipped tests.
         getTest().log(Status.SKIP, "Test Skipped");
     }
