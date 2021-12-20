@@ -88,7 +88,7 @@ public class BaseTest {
 			
 			// String sURL = "http://localhost:4444/wd/hub";
 			
-			String sURL = "http://ec2-3-83-89-154.compute-1.amazonaws.com:4444/wd/hub";
+			String sURL = "http://ec2-54-157-232-2.compute-1.amazonaws.com:4444/wd/hub";
 
 			// DesiredCapabilities cap = new DesiredCapabilities();
 
