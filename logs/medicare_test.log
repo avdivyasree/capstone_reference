@@ -315,3 +315,93 @@
 2021Dec20 16:35:01.968 INFO  Test [buy2ProductsTest] is succeed!
 2021Dec20 16:35:01.968 INFO  Ending test.
 2021Dec20 16:35:05.071 INFO  I am in onFinish method Shopping Test
+2021Dec20 17:20:06.873 INFO  I am in onStart method Login-Only Tests
+2021Dec20 17:20:06.889 INFO  Starting test!
+2021Dec20 17:20:06.889 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 17:20:07.124 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 17:20:07.789 INFO  WebDriver created
+2021Dec20 17:20:07.813 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 17:20:07.818 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 17:20:07.923 INFO  Opening Medicare website..
+2021Dec20 17:20:10.851 INFO  Going to Login Page..
+2021Dec20 17:20:12.279 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec20 17:20:14.599 INFO  Verifying invalid login
+2021Dec20 17:20:15.647 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 17:20:15.648 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 17:20:15.649 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 17:20:15.649 INFO  Opening Medicare website..
+2021Dec20 17:20:15.948 INFO  Going to Login Page..
+2021Dec20 17:20:17.370 INFO  Trying to login using [testuser1@simplilearn.com/WRONGPass!]
+2021Dec20 17:20:19.669 INFO  Verifying invalid login
+2021Dec20 17:20:20.707 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 17:20:20.709 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 17:20:20.710 INFO  Test [validUserLoginTest] is starting...
+2021Dec20 17:20:20.710 INFO  Opening Medicare website..
+2021Dec20 17:20:21.039 INFO  Going to Login Page..
+2021Dec20 17:20:22.465 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 17:20:25.839 INFO  Going to Logged-in Landing Page..
+2021Dec20 17:20:25.840 INFO  Verifying valid user login
+2021Dec20 17:20:26.878 DEBUG Going to logout
+2021Dec20 17:20:26.878 INFO  Going to logout
+2021Dec20 17:20:28.493 INFO  Test [validUserLoginTest] is succeed!
+2021Dec20 17:20:28.494 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 17:20:28.495 INFO  Test [validAdminLoginTest] is starting...
+2021Dec20 17:20:28.495 INFO  Opening Medicare website..
+2021Dec20 17:20:28.801 INFO  Going to Login Page..
+2021Dec20 17:20:30.207 INFO  Trying to login using [vk@gmail.com/admin]
+2021Dec20 17:20:33.420 INFO  Going to Logged-in Landing Page..
+2021Dec20 17:20:33.421 INFO  Verifying valid admin login
+2021Dec20 17:20:35.495 INFO  Going to logout
+2021Dec20 17:20:37.120 INFO  Test [validAdminLoginTest] is succeed!
+2021Dec20 17:20:37.121 INFO  Ending test.
+2021Dec20 17:20:40.231 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 17:20:40.377 INFO  I am in onStart method Shopping Test
+2021Dec20 17:20:40.378 INFO  Starting test!
+2021Dec20 17:20:40.378 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 17:20:40.390 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 17:20:40.518 INFO  WebDriver created
+2021Dec20 17:20:40.519 DEBUG appURL is : [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 17:20:40.520 INFO  Test [buy2ProductsTest] is starting...
+2021Dec20 17:20:40.520 INFO  Opening Medicare website..
+2021Dec20 17:20:44.003 INFO  Going to Login Page..
+2021Dec20 17:20:45.420 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 17:20:48.765 INFO  Going to Logged-in Landing Page..
+2021Dec20 17:20:48.766 INFO  Going to click View Products nagivation menu
+2021Dec20 17:20:49.606 INFO  Select show ALL entries of product
+2021Dec20 17:20:50.664 INFO  Going to add [Combiflame] to cart..
+2021Dec20 17:20:50.689 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 17:20:50.704 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 17:20:52.341 DEBUG Product [Combiflame] found & added to cart!
+2021Dec20 17:20:52.341 DEBUG ExpectedAddedURL [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 17:20:52.346 DEBUG DriverCurrentURL [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 17:20:52.351 INFO  Added Product [Combiflame] to cart!
+2021Dec20 17:20:54.352 INFO  Transit to Cart Page..
+2021Dec20 17:20:55.352 INFO  Go back shopping..
+2021Dec20 17:20:57.191 INFO  Going to add [Amoxicillin] to cart..
+2021Dec20 17:20:57.243 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 17:20:57.275 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 17:20:57.292 DEBUG addProductToCart()::iterating..[2] - Diclofenac
+2021Dec20 17:20:57.309 DEBUG addProductToCart()::iterating..[3] - Aceclofenac
+2021Dec20 17:20:57.324 DEBUG addProductToCart()::iterating..[4] - Amoxicillin
+2021Dec20 17:20:58.959 DEBUG Product [Amoxicillin] found & added to cart!
+2021Dec20 17:20:58.960 DEBUG ExpectedAddedURL [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 17:20:58.969 DEBUG DriverCurrentURL [http://ec2-54-144-238-24.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 17:20:58.972 INFO  Added Product [Amoxicillin] to cart!
+2021Dec20 17:21:00.973 INFO  Transit to Cart Page..
+2021Dec20 17:21:00.973 INFO  Checking out..
+2021Dec20 17:21:02.372 INFO  Validate is Shipping Page.. 
+2021Dec20 17:21:02.906 INFO  Selecting first address.. 
+2021Dec20 17:21:04.036 INFO  Validate is Payment Page.. 
+2021Dec20 17:21:04.565 INFO  Going to validate final payment sum..
+2021Dec20 17:21:04.589 DEBUG valFinalPaymentSum():: price [22.0]
+2021Dec20 17:21:04.597 DEBUG valFinalPaymentSum():: price [54.0]
+2021Dec20 17:21:04.597 DEBUG valFinalPaymentSum():: final sum computed [76.0]
+2021Dec20 17:21:05.127 DEBUG valFinalPaymentSum():: final sum shown on page [₹ 76.0/-]
+2021Dec20 17:21:05.643 INFO  Going to insert payment card details..
+2021Dec20 17:21:07.847 INFO  Going to proceed confirm payment..
+2021Dec20 17:21:08.751 INFO  Validate order is confirmed..
+2021Dec20 17:21:09.278 INFO  Return to shopping
+2021Dec20 17:21:10.105 INFO  Going to logout
+2021Dec20 17:21:12.321 INFO  Test [buy2ProductsTest] is succeed!
+2021Dec20 17:21:12.322 INFO  Ending test.
+2021Dec20 17:21:15.426 INFO  I am in onFinish method Shopping Test
