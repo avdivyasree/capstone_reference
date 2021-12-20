@@ -80,23 +80,42 @@ public class BaseTest {
 		// cap.setBrowserName("MicrosoftEdge");
 		
 		//gridFlag=true;
-		gridFlag=false;
+		gridFlag=true;
 		
 		if (gridFlag) {
 
 			// -- for future improvement
 			
 			String sURL = "http://localhost:4444/wd/hub";
-			// String sURL = "http://192.168.100.190:4444/wd/hub";
-			DesiredCapabilities cap = new DesiredCapabilities();
 
+			// DesiredCapabilities cap = new DesiredCapabilities();
+
+			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setPlatform(Platform.LINUX);
 			cap.setBrowserName("chrome");
+			
 			
 			// -- We can test other browsers if connect to Selenium Grid
 			// cap.setPlatform(Platform.WINDOWS);
 			// cap.setBrowserName("opera");
 			// cap.setBrowserName("MicrosoftEdge");
+
+	        ChromeOptions options = new ChromeOptions();
+	        
+	        if ( headlessFlag.equalsIgnoreCase("TRUE")) {
+	        	options.addArguments("--headless");     
+	        	MyLog.info("Setup():: Running in headless chrome mode.");
+	        }
+	        options.addArguments("--disable-gpu");
+	        options.addArguments("--disable-crash-reporter");
+	        options.addArguments("--disable-logging");
+	        options.addArguments("--disable-dev-shm-usage");
+	        options.addArguments("--no-sandbox");		// Jenkins on AWS most likely run under root
+	        options.addArguments("--window-size=1400,800");  
+
+	        // Set the Chrome Options 
+	        cap.setCapability(ChromeOptions.CAPABILITY, options);
+			
 			
 			Rdriver = new RemoteWebDriver(new URL(sURL), cap);
 			driver = Rdriver;
@@ -122,6 +141,7 @@ public class BaseTest {
 	        }
 	        options.addArguments("--disable-gpu");
 	        options.addArguments("--disable-crash-reporter");
+	        options.addArguments("--disable-logging");
 	        options.addArguments("--disable-dev-shm-usage");
 	        options.addArguments("--no-sandbox");		// Jenkins on AWS most likely run under root
 	        options.addArguments("--window-size=1400,800");  

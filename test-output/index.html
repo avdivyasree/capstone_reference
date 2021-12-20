@@ -109,12 +109,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Medicare_Test_Suite" title="testSuites.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...)">invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Medicare_Test_Suite" title="testSuites.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...)">invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Medicare_Test_Suite" title="testSuites.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...)">invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Medicare_Test_Suite" title="testSuites.LoginTest" class="method navigator-link" hash-for-method="invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...)">invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,20 +147,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...)">
-                  </a> <!-- invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...) -->
+                  <a name="invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...)">
+                  </a> <!-- invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...) -->
                   <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <span class="parameters">(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
                   <em>
 (Invalid login)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...)">
-                  </a> <!-- invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...) -->
+                  <a name="invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...)">
+                  </a> <!-- invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...) -->
                   <span class="method-name">invalidLoginTest</span>
-                  <span class="parameters">(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <span class="parameters">(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
                   <em>
 (Invalid login)                  </em>
                 </div> <!-- method-content -->
@@ -216,7 +216,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Medicare Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot;&gt;
   &lt;parameter name=&quot;headlessFlag&quot; value=&quot;True&quot;/&gt;
-  &lt;parameter name=&quot;aws_host&quot; value=&quot;http://ec2-54-144-238-24.compute-1.amazonaws.com:8081&quot;/&gt;
+  &lt;parameter name=&quot;aws_host&quot; value=&quot;http://ec2-35-173-242-250.compute-1.amazonaws.com:8081&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utils.TestListener&quot;/&gt;
   &lt;/listeners&gt;
@@ -308,23 +308,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'buy2ProductsTest')
 data.setCell(0, 2, 'testSuites.ShoppingTest')
-data.setCell(0, 3, 31801);
+data.setCell(0, 3, 33018);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validAdminLoginTest')
+data.setCell(1, 1, 'invalidLoginTest')
 data.setCell(1, 2, 'testSuites.LoginTest')
-data.setCell(1, 3, 8625);
+data.setCell(1, 3, 8937);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'invalidLoginTest')
+data.setCell(2, 1, 'validAdminLoginTest')
 data.setCell(2, 2, 'testSuites.LoginTest')
-data.setCell(2, 3, 7831);
+data.setCell(2, 3, 8870);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validUserLoginTest')
 data.setCell(3, 2, 'testSuites.LoginTest')
-data.setCell(3, 3, 7783);
+data.setCell(3, 3, 8026);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'invalidLoginTest')
 data.setCell(4, 2, 'testSuites.LoginTest')
-data.setCell(4, 3, 5057);
+data.setCell(4, 3, 5210);
 window.suiteTableData['Medicare_Test_Suite']= { tableData: data, tableDiv: 'times-div-Medicare_Test_Suite'}
 return data;
 }
@@ -361,59 +361,59 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">methodLevelSetup(http://ec2-54-144-238-24.compute-1.amazonaws.com:8081)</span>
-                <span class="method-start">915 ms</span>
+                <span class="method-name">methodLevelSetup(http://ec2-35-173-242-250.compute-1.amazonaws.com:8081)</span>
+                <span class="method-start">674 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(wrong@simplilearn.com, testTEST!, public void testSuites.LoginTest.invalidLoginTest(java.lang.String...)</span>
-                <span class="method-start">931 ms</span>
+                <span class="method-start">683 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">methodLevelSetup(http://ec2-54-144-238-24.compute-1.amazonaws.com:8081)</span>
-                <span class="method-start">8764 ms</span>
+                <span class="method-name">methodLevelSetup(http://ec2-35-173-242-250.compute-1.amazonaws.com:8081)</span>
+                <span class="method-start">9622 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidLoginTest(testuser1@simplilearn.com, WRONGPass!, public void testSuites.LoginTest.invalidLoginTest(java.lang.S...)</span>
-                <span class="method-start">8766 ms</span>
+                <span class="method-start">9623 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">methodLevelSetup(http://ec2-54-144-238-24.compute-1.amazonaws.com:8081)</span>
-                <span class="method-start">13826 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validUserLoginTest(testuser1@simplilearn.com, testTEST!, Test User1, public void testSuites.LoginTest.validUserLoginTes...)</span>
-                <span class="method-start">13826 ms</span>
+                <span class="method-start">14836 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">methodLevelSetup(http://ec2-54-144-238-24.compute-1.amazonaws.com:8081)</span>
-                <span class="method-start">21610 ms</span>
+                <span class="method-name">methodLevelSetup(http://ec2-35-173-242-250.compute-1.amazonaws.com:8081)</span>
+                <span class="method-start">14836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup(http://ec2-35-173-242-250.compute-1.amazonaws.com:8081)</span>
+                <span class="method-start">22864 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validAdminLoginTest(vk@gmail.com, admin, Vikas Kashyap, public void testSuites.LoginTest.validAdminLoginTest(java.lang.S...)</span>
-                <span class="method-start">21611 ms</span>
+                <span class="method-start">22864 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">30237 ms</span>
+                <span class="method-start">31736 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testSuites.ShoppingTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">classLevelSetup(True, False)</span>
-                <span class="method-start">33495 ms</span>
+                <span class="method-start">34965 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">methodLevelSetup(http://ec2-35-173-242-250.compute-1.amazonaws.com:8081)</span>
+                <span class="method-start">35084 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">buy2ProductsTest(testuser1@simplilearn.com, testTEST!, Combiflame, Amoxicillin, public void testSuites.ShoppingTest.b...)</span>
-                <span class="method-start">33636 ms</span>
+                <span class="method-start">35085 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">methodLevelSetup(http://ec2-54-144-238-24.compute-1.amazonaws.com:8081)</span>
-                <span class="method-start">33636 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">65438 ms</span>
+                <span class="method-start">68104 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

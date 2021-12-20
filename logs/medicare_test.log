@@ -405,3 +405,147 @@
 2021Dec20 17:21:12.321 INFO  Test [buy2ProductsTest] is succeed!
 2021Dec20 17:21:12.322 INFO  Ending test.
 2021Dec20 17:21:15.426 INFO  I am in onFinish method Shopping Test
+2021Dec20 22:10:50.641 INFO  I am in onStart method Login-Only Tests
+2021Dec20 22:10:50.662 INFO  Starting test!
+2021Dec20 22:10:50.662 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 22:10:51.726 INFO  WebDriver created
+2021Dec20 22:10:51.743 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:10:51.747 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 22:10:51.860 INFO  Opening Medicare website..
+2021Dec20 22:10:55.282 INFO  Going to Login Page..
+2021Dec20 22:10:56.748 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec20 22:10:59.180 INFO  Verifying invalid login
+2021Dec20 22:11:00.289 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 22:11:00.291 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:11:00.294 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 22:11:00.294 INFO  Opening Medicare website..
+2021Dec20 22:11:00.682 INFO  Going to Login Page..
+2021Dec20 22:11:02.317 INFO  invalidLoginTest:: test is failed.
+2021Dec20 22:11:02.574 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:11:02.575 INFO  Test [validUserLoginTest] is starting...
+2021Dec20 22:11:02.575 INFO  Opening Medicare website..
+2021Dec20 22:11:02.899 INFO  Going to Login Page..
+2021Dec20 22:11:04.493 INFO  validUserLoginTest:: test is failed.
+2021Dec20 22:11:04.683 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:11:04.684 INFO  Test [validAdminLoginTest] is starting...
+2021Dec20 22:11:04.684 INFO  Opening Medicare website..
+2021Dec20 22:11:04.820 INFO  Going to Login Page..
+2021Dec20 22:11:05.663 INFO  Trying to login using [vk@gmail.com/admin]
+2021Dec20 22:11:09.017 INFO  Going to Logged-in Landing Page..
+2021Dec20 22:11:09.017 INFO  Verifying valid admin login
+2021Dec20 22:11:11.190 INFO  Going to logout
+2021Dec20 22:11:12.887 INFO  Test [validAdminLoginTest] is succeed!
+2021Dec20 22:11:12.888 INFO  Ending test.
+2021Dec20 22:11:15.979 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 22:11:16.149 INFO  I am in onStart method Shopping Test
+2021Dec20 22:11:16.149 INFO  Starting test!
+2021Dec20 22:11:16.150 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 22:11:16.520 INFO  WebDriver created
+2021Dec20 22:11:16.525 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:11:16.526 INFO  Test [buy2ProductsTest] is starting...
+2021Dec20 22:11:16.526 INFO  Opening Medicare website..
+2021Dec20 22:11:20.169 INFO  Going to Login Page..
+2021Dec20 22:11:21.595 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 22:11:25.037 INFO  Going to Logged-in Landing Page..
+2021Dec20 22:11:25.038 INFO  Going to click View Products nagivation menu
+2021Dec20 22:11:25.951 INFO  Select show ALL entries of product
+2021Dec20 22:11:27.050 INFO  Going to add [Combiflame] to cart..
+2021Dec20 22:11:27.097 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 22:11:27.130 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 22:11:28.825 DEBUG Product [Combiflame] found & added to cart!
+2021Dec20 22:11:28.825 DEBUG ExpectedAddedURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 22:11:28.845 DEBUG DriverCurrentURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=updated]
+2021Dec20 22:11:28.855 ERROR FAILED to add Product [Combiflame] to cart!
+2021Dec20 22:11:28.856 INFO  buy2ProductsTest:: test is failed.
+2021Dec20 22:11:28.969 INFO  Ending test.
+2021Dec20 22:11:32.039 INFO  I am in onFinish method Shopping Test
+2021Dec20 22:22:24.455 INFO  I am in onStart method Login-Only Tests
+2021Dec20 22:22:24.470 INFO  Starting test!
+2021Dec20 22:22:24.470 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 22:22:24.476 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 22:22:25.133 INFO  WebDriver created
+2021Dec20 22:22:25.147 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:22:25.151 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 22:22:25.246 INFO  Opening Medicare website..
+2021Dec20 22:22:29.255 INFO  Going to Login Page..
+2021Dec20 22:22:30.664 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec20 22:22:33.017 INFO  Verifying invalid login
+2021Dec20 22:22:34.086 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 22:22:34.088 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:22:34.088 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 22:22:34.089 INFO  Opening Medicare website..
+2021Dec20 22:22:34.408 INFO  Going to Login Page..
+2021Dec20 22:22:35.837 INFO  Trying to login using [testuser1@simplilearn.com/WRONGPass!]
+2021Dec20 22:22:38.220 INFO  Verifying invalid login
+2021Dec20 22:22:39.299 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 22:22:39.301 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:22:39.302 INFO  Test [validUserLoginTest] is starting...
+2021Dec20 22:22:39.302 INFO  Opening Medicare website..
+2021Dec20 22:22:39.650 INFO  Going to Login Page..
+2021Dec20 22:22:41.107 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 22:22:44.584 INFO  Going to Logged-in Landing Page..
+2021Dec20 22:22:44.585 INFO  Verifying valid user login
+2021Dec20 22:22:45.655 DEBUG Going to logout
+2021Dec20 22:22:45.655 INFO  Going to logout
+2021Dec20 22:22:47.328 INFO  Test [validUserLoginTest] is succeed!
+2021Dec20 22:22:47.329 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:22:47.330 INFO  Test [validAdminLoginTest] is starting...
+2021Dec20 22:22:47.330 INFO  Opening Medicare website..
+2021Dec20 22:22:47.650 INFO  Going to Login Page..
+2021Dec20 22:22:49.084 INFO  Trying to login using [vk@gmail.com/admin]
+2021Dec20 22:22:52.385 INFO  Going to Logged-in Landing Page..
+2021Dec20 22:22:52.386 INFO  Verifying valid admin login
+2021Dec20 22:22:54.524 INFO  Going to logout
+2021Dec20 22:22:56.200 INFO  Test [validAdminLoginTest] is succeed!
+2021Dec20 22:22:56.201 INFO  Ending test.
+2021Dec20 22:22:59.276 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 22:22:59.429 INFO  I am in onStart method Shopping Test
+2021Dec20 22:22:59.430 INFO  Starting test!
+2021Dec20 22:22:59.430 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 22:22:59.430 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 22:22:59.549 INFO  WebDriver created
+2021Dec20 22:22:59.550 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 22:22:59.551 INFO  Test [buy2ProductsTest] is starting...
+2021Dec20 22:22:59.551 INFO  Opening Medicare website..
+2021Dec20 22:23:03.534 INFO  Going to Login Page..
+2021Dec20 22:23:04.981 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 22:23:08.410 INFO  Going to Logged-in Landing Page..
+2021Dec20 22:23:08.410 INFO  Going to click View Products nagivation menu
+2021Dec20 22:23:09.271 INFO  Select show ALL entries of product
+2021Dec20 22:23:10.386 INFO  Going to add [Combiflame] to cart..
+2021Dec20 22:23:10.425 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 22:23:10.447 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 22:23:12.095 DEBUG Product [Combiflame] found & added to cart!
+2021Dec20 22:23:12.095 DEBUG ExpectedAddedURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 22:23:12.104 DEBUG DriverCurrentURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 22:23:12.113 INFO  Added Product [Combiflame] to cart!
+2021Dec20 22:23:14.114 INFO  Transit to Cart Page..
+2021Dec20 22:23:15.115 INFO  Go back shopping..
+2021Dec20 22:23:16.994 INFO  Going to add [Amoxicillin] to cart..
+2021Dec20 22:23:17.049 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 22:23:17.076 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 22:23:17.110 DEBUG addProductToCart()::iterating..[2] - Diclofenac
+2021Dec20 22:23:17.132 DEBUG addProductToCart()::iterating..[3] - Aceclofenac
+2021Dec20 22:23:17.158 DEBUG addProductToCart()::iterating..[4] - Amoxicillin
+2021Dec20 22:23:18.804 DEBUG Product [Amoxicillin] found & added to cart!
+2021Dec20 22:23:18.804 DEBUG ExpectedAddedURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 22:23:18.825 DEBUG DriverCurrentURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 22:23:18.831 INFO  Added Product [Amoxicillin] to cart!
+2021Dec20 22:23:20.831 INFO  Transit to Cart Page..
+2021Dec20 22:23:20.832 INFO  Checking out..
+2021Dec20 22:23:22.279 INFO  Validate is Shipping Page.. 
+2021Dec20 22:23:22.822 INFO  Selecting first address.. 
+2021Dec20 22:23:23.984 INFO  Validate is Payment Page.. 
+2021Dec20 22:23:24.536 INFO  Going to validate final payment sum..
+2021Dec20 22:23:24.573 DEBUG valFinalPaymentSum():: price [22.0]
+2021Dec20 22:23:24.586 DEBUG valFinalPaymentSum():: price [54.0]
+2021Dec20 22:23:24.586 DEBUG valFinalPaymentSum():: final sum computed [76.0]
+2021Dec20 22:23:25.135 DEBUG valFinalPaymentSum():: final sum shown on page [₹ 76.0/-]
+2021Dec20 22:23:25.710 INFO  Going to insert payment card details..
+2021Dec20 22:23:27.971 INFO  Going to proceed confirm payment..
+2021Dec20 22:23:28.917 INFO  Validate order is confirmed..
+2021Dec20 22:23:29.455 INFO  Return to shopping
+2021Dec20 22:23:30.316 INFO  Going to logout
+2021Dec20 22:23:32.569 INFO  Test [buy2ProductsTest] is succeed!
+2021Dec20 22:23:32.569 INFO  Ending test.
+2021Dec20 22:23:35.631 INFO  I am in onFinish method Shopping Test
