@@ -87,6 +87,8 @@ public class BaseTest {
 			// -- for future improvement
 			
 			String sURL = "http://localhost:4444/wd/hub";
+			
+			// String sURL = "http://ec2-54-157-232-2.compute-1.amazonaws.com:4444/wd/hub";
 
 			// DesiredCapabilities cap = new DesiredCapabilities();
 
@@ -107,8 +109,8 @@ public class BaseTest {
 	        	MyLog.info("Setup():: Running in headless chrome mode.");
 	        }
 	        options.addArguments("--disable-gpu");
-	        options.addArguments("--disable-crash-reporter");
-	        options.addArguments("--disable-logging");
+	        // options.addArguments("--disable-crash-reporter");
+	        // options.addArguments("--disable-logging");
 	        options.addArguments("--disable-dev-shm-usage");
 	        options.addArguments("--no-sandbox");		// Jenkins on AWS most likely run under root
 	        options.addArguments("--window-size=1400,800");  
@@ -119,6 +121,8 @@ public class BaseTest {
 			
 			Rdriver = new RemoteWebDriver(new URL(sURL), cap);
 			driver = Rdriver;
+			
+			
 		}
 		else {
 

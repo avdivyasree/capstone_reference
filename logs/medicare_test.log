@@ -549,3 +549,281 @@
 2021Dec20 22:23:32.569 INFO  Test [buy2ProductsTest] is succeed!
 2021Dec20 22:23:32.569 INFO  Ending test.
 2021Dec20 22:23:35.631 INFO  I am in onFinish method Shopping Test
+2021Dec20 23:18:29.473 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:18:29.520 INFO  Starting test!
+2021Dec20 23:18:29.520 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:18:29.526 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:20:13.339 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:20:13.340 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:20:13.432 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:20:13.461 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:21:18.897 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:21:18.912 INFO  Starting test!
+2021Dec20 23:21:18.912 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:21:18.917 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:21:20.557 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:21:20.559 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:21:20.652 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:21:20.681 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:21:35.605 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:21:35.620 INFO  Starting test!
+2021Dec20 23:21:35.621 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:21:35.626 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:21:36.986 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:21:36.988 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:21:37.089 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:21:37.115 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:22:02.433 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:22:02.449 INFO  Starting test!
+2021Dec20 23:22:02.449 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:22:02.454 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:22:03.845 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:22:03.849 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:22:03.945 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:22:03.967 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:23:32.405 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:23:32.420 INFO  Starting test!
+2021Dec20 23:23:32.420 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:23:32.425 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:23:33.727 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:23:33.729 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:23:33.839 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:23:33.862 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:24:00.393 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:24:00.408 INFO  Starting test!
+2021Dec20 23:24:00.409 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:24:00.414 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:24:01.738 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:24:01.740 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:24:01.837 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:24:01.859 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:29:07.643 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:29:07.659 INFO  Starting test!
+2021Dec20 23:29:07.659 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:29:07.665 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:29:09.088 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:29:09.090 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:29:09.178 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:29:09.199 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:30:10.746 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:30:10.763 INFO  Starting test!
+2021Dec20 23:30:10.763 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:30:10.769 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:30:11.450 INFO  WebDriver created
+2021Dec20 23:30:11.466 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:30:11.471 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:30:11.584 INFO  Opening Medicare website..
+2021Dec20 23:30:14.988 INFO  Going to Login Page..
+2021Dec20 23:30:16.430 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec20 23:30:18.800 INFO  Verifying invalid login
+2021Dec20 23:30:19.894 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 23:30:19.895 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:30:19.896 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:30:19.896 INFO  Opening Medicare website..
+2021Dec20 23:30:20.206 INFO  Going to Login Page..
+2021Dec20 23:30:21.625 INFO  Trying to login using [testuser1@simplilearn.com/WRONGPass!]
+2021Dec20 23:30:23.954 INFO  Verifying invalid login
+2021Dec20 23:30:25.028 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 23:30:25.033 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:30:25.034 INFO  Test [validUserLoginTest] is starting...
+2021Dec20 23:30:25.034 INFO  Opening Medicare website..
+2021Dec20 23:30:25.393 INFO  Going to Login Page..
+2021Dec20 23:30:26.783 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 23:30:30.186 INFO  Going to Logged-in Landing Page..
+2021Dec20 23:30:30.187 INFO  Verifying valid user login
+2021Dec20 23:30:31.294 DEBUG Going to logout
+2021Dec20 23:30:31.294 INFO  Going to logout
+2021Dec20 23:30:32.944 INFO  Test [validUserLoginTest] is succeed!
+2021Dec20 23:30:32.945 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:30:32.946 INFO  Test [validAdminLoginTest] is starting...
+2021Dec20 23:30:32.946 INFO  Opening Medicare website..
+2021Dec20 23:30:33.272 INFO  Going to Login Page..
+2021Dec20 23:30:34.704 INFO  Trying to login using [vk@gmail.com/admin]
+2021Dec20 23:30:38.020 INFO  Going to Logged-in Landing Page..
+2021Dec20 23:30:38.021 INFO  Verifying valid admin login
+2021Dec20 23:30:40.140 INFO  Going to logout
+2021Dec20 23:30:41.770 INFO  Test [validAdminLoginTest] is succeed!
+2021Dec20 23:30:41.771 INFO  Ending test.
+2021Dec20 23:30:44.849 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:30:45.013 INFO  I am in onStart method Shopping Test
+2021Dec20 23:30:45.014 INFO  Starting test!
+2021Dec20 23:30:45.014 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:30:45.014 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:30:45.159 INFO  WebDriver created
+2021Dec20 23:30:45.161 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:30:45.161 INFO  Test [buy2ProductsTest] is starting...
+2021Dec20 23:30:45.162 INFO  Opening Medicare website..
+2021Dec20 23:30:48.535 INFO  Going to Login Page..
+2021Dec20 23:30:49.973 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 23:30:53.367 INFO  Going to Logged-in Landing Page..
+2021Dec20 23:30:53.368 INFO  Going to click View Products nagivation menu
+2021Dec20 23:30:54.230 INFO  Select show ALL entries of product
+2021Dec20 23:30:55.327 INFO  Going to add [Combiflame] to cart..
+2021Dec20 23:30:55.370 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 23:30:55.394 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 23:30:57.043 DEBUG Product [Combiflame] found & added to cart!
+2021Dec20 23:30:57.043 DEBUG ExpectedAddedURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:30:57.050 DEBUG DriverCurrentURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:30:57.054 INFO  Added Product [Combiflame] to cart!
+2021Dec20 23:30:59.054 INFO  Transit to Cart Page..
+2021Dec20 23:31:00.055 INFO  Go back shopping..
+2021Dec20 23:31:01.918 INFO  Going to add [Amoxicillin] to cart..
+2021Dec20 23:31:01.959 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 23:31:02.000 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 23:31:02.020 DEBUG addProductToCart()::iterating..[2] - Diclofenac
+2021Dec20 23:31:02.055 DEBUG addProductToCart()::iterating..[3] - Aceclofenac
+2021Dec20 23:31:02.078 DEBUG addProductToCart()::iterating..[4] - Amoxicillin
+2021Dec20 23:31:03.739 DEBUG Product [Amoxicillin] found & added to cart!
+2021Dec20 23:31:03.739 DEBUG ExpectedAddedURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:31:03.744 DEBUG DriverCurrentURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:31:03.752 INFO  Added Product [Amoxicillin] to cart!
+2021Dec20 23:31:05.752 INFO  Transit to Cart Page..
+2021Dec20 23:31:05.753 INFO  Checking out..
+2021Dec20 23:31:07.206 INFO  Validate is Shipping Page.. 
+2021Dec20 23:31:07.753 INFO  Selecting first address.. 
+2021Dec20 23:31:08.915 INFO  Validate is Payment Page.. 
+2021Dec20 23:31:09.453 INFO  Going to validate final payment sum..
+2021Dec20 23:31:09.484 DEBUG valFinalPaymentSum():: price [22.0]
+2021Dec20 23:31:09.496 DEBUG valFinalPaymentSum():: price [54.0]
+2021Dec20 23:31:09.497 DEBUG valFinalPaymentSum():: final sum computed [76.0]
+2021Dec20 23:31:10.031 DEBUG valFinalPaymentSum():: final sum shown on page [₹ 76.0/-]
+2021Dec20 23:31:10.558 INFO  Going to insert payment card details..
+2021Dec20 23:31:12.800 INFO  Going to proceed confirm payment..
+2021Dec20 23:31:13.745 INFO  Validate order is confirmed..
+2021Dec20 23:31:14.280 INFO  Return to shopping
+2021Dec20 23:31:15.139 INFO  Going to logout
+2021Dec20 23:31:17.409 INFO  Test [buy2ProductsTest] is succeed!
+2021Dec20 23:31:17.409 INFO  Ending test.
+2021Dec20 23:31:20.468 INFO  I am in onFinish method Shopping Test
+2021Dec20 23:34:24.817 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:34:24.833 INFO  Starting test!
+2021Dec20 23:34:24.833 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:34:24.838 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:34:26.170 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:34:26.172 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:34:26.276 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:34:26.304 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:37:29.435 INFO  Ending test.
+2021Dec20 23:37:36.655 INFO  Ending test.
+2021Dec20 23:38:15.866 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:38:15.881 INFO  Starting test!
+2021Dec20 23:38:15.882 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:38:15.887 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:38:19.328 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:38:19.331 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:38:19.460 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:38:19.493 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:38:54.283 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:38:54.301 INFO  Starting test!
+2021Dec20 23:38:54.302 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:38:54.307 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:38:57.717 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:38:57.719 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:38:57.827 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:38:57.861 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:40:11.805 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:40:11.839 INFO  Starting test!
+2021Dec20 23:40:11.840 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:40:11.845 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:40:13.365 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:40:13.366 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:40:13.470 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:40:13.499 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:49:02.818 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:49:02.833 INFO  Starting test!
+2021Dec20 23:49:02.833 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:49:02.838 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:49:04.374 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:49:04.376 INFO  invalidLoginTest:: test is skipped.
+2021Dec20 23:49:04.469 INFO  invalidLoginTest:: test is failed.
+2021Dec20 23:49:04.492 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:53:45.169 INFO  I am in onStart method Login-Only Tests
+2021Dec20 23:53:45.185 INFO  Starting test!
+2021Dec20 23:53:45.185 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:53:45.190 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:53:47.371 INFO  WebDriver created
+2021Dec20 23:53:47.385 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:53:47.389 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:53:47.482 INFO  Opening Medicare website..
+2021Dec20 23:53:48.518 INFO  Going to Login Page..
+2021Dec20 23:53:50.481 INFO  Trying to login using [wrong@simplilearn.com/testTEST!]
+2021Dec20 23:53:55.716 INFO  Verifying invalid login
+2021Dec20 23:53:58.673 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 23:53:58.674 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:53:58.675 INFO  Test [invalidLoginTest] is starting...
+2021Dec20 23:53:58.675 INFO  Opening Medicare website..
+2021Dec20 23:53:59.158 INFO  Going to Login Page..
+2021Dec20 23:54:00.841 INFO  Trying to login using [testuser1@simplilearn.com/WRONGPass!]
+2021Dec20 23:54:06.051 INFO  Verifying invalid login
+2021Dec20 23:54:08.981 INFO  Test [invalidLoginTest] is succeed!
+2021Dec20 23:54:08.984 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:54:08.985 INFO  Test [validUserLoginTest] is starting...
+2021Dec20 23:54:08.985 INFO  Opening Medicare website..
+2021Dec20 23:54:09.426 INFO  Going to Login Page..
+2021Dec20 23:54:11.341 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 23:54:17.570 INFO  Going to Logged-in Landing Page..
+2021Dec20 23:54:17.571 INFO  Verifying valid user login
+2021Dec20 23:54:20.729 DEBUG Going to logout
+2021Dec20 23:54:20.730 INFO  Going to logout
+2021Dec20 23:54:24.043 INFO  Test [validUserLoginTest] is succeed!
+2021Dec20 23:54:24.044 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:54:24.045 INFO  Test [validAdminLoginTest] is starting...
+2021Dec20 23:54:24.045 INFO  Opening Medicare website..
+2021Dec20 23:54:24.429 INFO  Going to Login Page..
+2021Dec20 23:54:26.114 INFO  Trying to login using [vk@gmail.com/admin]
+2021Dec20 23:54:32.256 INFO  Going to Logged-in Landing Page..
+2021Dec20 23:54:32.257 INFO  Verifying valid admin login
+2021Dec20 23:54:38.318 INFO  Going to logout
+2021Dec20 23:54:41.663 INFO  Test [validAdminLoginTest] is succeed!
+2021Dec20 23:54:41.664 INFO  Ending test.
+2021Dec20 23:54:44.983 INFO  I am in onFinish method Login-Only Tests
+2021Dec20 23:54:45.149 INFO  I am in onStart method Shopping Test
+2021Dec20 23:54:45.150 INFO  Starting test!
+2021Dec20 23:54:45.150 DEBUG testLoginOnlyFlag is [true]
+2021Dec20 23:54:45.150 INFO  Setup():: Running in headless chrome mode.
+2021Dec20 23:54:45.703 INFO  WebDriver created
+2021Dec20 23:54:45.704 DEBUG appURL is : [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/]
+2021Dec20 23:54:45.704 INFO  Test [buy2ProductsTest] is starting...
+2021Dec20 23:54:45.705 INFO  Opening Medicare website..
+2021Dec20 23:54:46.581 INFO  Going to Login Page..
+2021Dec20 23:54:48.522 INFO  Trying to login using [testuser1@simplilearn.com/testTEST!]
+2021Dec20 23:54:54.772 INFO  Going to Logged-in Landing Page..
+2021Dec20 23:54:54.772 INFO  Going to click View Products nagivation menu
+2021Dec20 23:54:56.760 INFO  Select show ALL entries of product
+2021Dec20 23:54:59.383 INFO  Going to add [Combiflame] to cart..
+2021Dec20 23:55:00.188 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 23:55:00.712 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 23:55:02.424 DEBUG Product [Combiflame] found & added to cart!
+2021Dec20 23:55:02.424 DEBUG ExpectedAddedURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:55:02.686 DEBUG DriverCurrentURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:55:02.943 INFO  Added Product [Combiflame] to cart!
+2021Dec20 23:55:04.943 INFO  Transit to Cart Page..
+2021Dec20 23:55:05.944 INFO  Go back shopping..
+2021Dec20 23:55:08.921 INFO  Going to add [Amoxicillin] to cart..
+2021Dec20 23:55:09.716 DEBUG addProductToCart()::iterating..[0] - Paracetamol
+2021Dec20 23:55:10.241 DEBUG addProductToCart()::iterating..[1] - Combiflame
+2021Dec20 23:55:10.768 DEBUG addProductToCart()::iterating..[2] - Diclofenac
+2021Dec20 23:55:11.297 DEBUG addProductToCart()::iterating..[3] - Aceclofenac
+2021Dec20 23:55:11.836 DEBUG addProductToCart()::iterating..[4] - Amoxicillin
+2021Dec20 23:55:13.532 DEBUG Product [Amoxicillin] found & added to cart!
+2021Dec20 23:55:13.532 DEBUG ExpectedAddedURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:55:13.786 DEBUG DriverCurrentURL [http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/cart/show?result=added]
+2021Dec20 23:55:14.042 INFO  Added Product [Amoxicillin] to cart!
+2021Dec20 23:55:16.043 INFO  Transit to Cart Page..
+2021Dec20 23:55:16.043 INFO  Checking out..
+2021Dec20 23:55:18.040 INFO  Validate is Shipping Page.. 
+2021Dec20 23:55:19.889 INFO  Selecting first address.. 
+2021Dec20 23:55:20.542 INFO  Validate is Payment Page.. 
+2021Dec20 23:55:22.138 INFO  Going to validate final payment sum..
+2021Dec20 23:55:22.671 DEBUG valFinalPaymentSum():: price [22.0]
+2021Dec20 23:55:22.951 DEBUG valFinalPaymentSum():: price [54.0]
+2021Dec20 23:55:22.951 DEBUG valFinalPaymentSum():: final sum computed [76.0]
+2021Dec20 23:55:24.536 DEBUG valFinalPaymentSum():: final sum shown on page [₹ 76.0/-]
+2021Dec20 23:55:26.073 INFO  Going to insert payment card details..
+2021Dec20 23:55:32.584 INFO  Going to proceed confirm payment..
+2021Dec20 23:55:34.392 INFO  Validate order is confirmed..
+2021Dec20 23:55:35.979 INFO  Return to shopping
+2021Dec20 23:55:37.671 INFO  Going to logout
+2021Dec20 23:55:40.963 INFO  Test [buy2ProductsTest] is succeed!
+2021Dec20 23:55:40.964 INFO  Ending test.
+2021Dec20 23:55:44.275 INFO  I am in onFinish method Shopping Test
