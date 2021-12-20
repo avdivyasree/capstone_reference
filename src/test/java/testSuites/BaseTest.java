@@ -19,6 +19,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.HomePage;
 import pageObjects.LandingPage;
 import utils.MyLog;
@@ -102,7 +103,14 @@ public class BaseTest {
 		else {
 
 			// localhost
-			System.setProperty("webdriver.chrome.driver", "chromedriver");
+			// System.setProperty("webdriver.chrome.driver", "chromedriver.96");
+			
+			// 20Dec21 - added webdriver manager
+			// - this will ease the version problem
+			// https://bonigarcia.dev/webdrivermanager/
+		
+			// This code will automatically download & select the right chromedriver version.
+			WebDriverManager.chromedriver().setup();
 			
 			// - use headless option on Chrome if we run on AWS linux machine (non-GUI & minimal resource)
 	        ChromeOptions options = new ChromeOptions();
