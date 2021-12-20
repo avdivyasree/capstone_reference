@@ -110,9 +110,8 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					 -->
-					<!--  // for JDK 11 -->
-					<source>11</source> 
-					 <target>11</target>
+					<!--  // for JDK 11 the tag is release -->
+					<release>11</release> 
 				</configuration>
 			</plugin>
 
