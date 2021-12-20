@@ -117,9 +117,10 @@ public class BaseTest {
 	        
 	        if ( headlessFlag.equalsIgnoreCase("TRUE")) {
 	        	options.addArguments("--headless");     
-	        	System.out.println("INFO:Setup():: Running in headless chrome mode.");
+	        	MyLog.info("Setup():: Running in headless chrome mode.");
 	        }
 	        options.addArguments("--disable-gpu");
+	        options.addArguments("--disable-dev-shm-usage");
 	        options.addArguments("--no-sandbox");		// Jenkins on AWS most likely run under root
 	        options.addArguments("--window-size=1400,800");  
 	        driver = new ChromeDriver(options);   
