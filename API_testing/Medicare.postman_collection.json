@@ -87,7 +87,7 @@
 					"raw": "http://ec2-35-173-242-250.compute-1.amazonaws.com:8081/medicare/json/data/category/1/products",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"ec2-35-173-242-250.compute-1.amazonaws.com"
 					],
 					"port": "8081",
 					"path": [
