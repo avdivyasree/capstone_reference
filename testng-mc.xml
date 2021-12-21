@@ -3,7 +3,7 @@
 
 <suite name="Medicare Test Suite" verbose="2">
 
-	<parameter name="aws_host" value="http://ec2-35-173-242-250.compute-1.amazonaws.com:8081" />
+	<parameter name="aws_host" value="http://ec2-52-90-196-85.compute-1.amazonaws.com:8081" />
 	<!--  <parameter name="aws_host" value="http://localhost:8081" /> -->
 	<parameter name="headlessFlag" value="True" />
 

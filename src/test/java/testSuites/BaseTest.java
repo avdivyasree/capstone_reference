@@ -84,18 +84,13 @@ public class BaseTest {
 		
 		if (gridFlag) {
 
-			// -- for future improvement
-			
 			// String sURL = "http://localhost:4444/wd/hub";
 			
-			String sURL = "http://ec2-54-157-232-2.compute-1.amazonaws.com:4444/wd/hub";
-
-			// DesiredCapabilities cap = new DesiredCapabilities();
+			String sURL = "http://ec2-3-87-40-231.compute-1.amazonaws.com:4444/wd/hub";
 
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setPlatform(Platform.LINUX);
 			cap.setBrowserName("chrome");
-			
 			
 			// -- We can test other browsers if connect to Selenium Grid
 			// cap.setPlatform(Platform.WINDOWS);
@@ -153,9 +148,7 @@ public class BaseTest {
 			
 	        // -- more options
 	        // options.addArguments("--headless", "--disable-gpu", "--window-size=1024,768","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");	        
-	        
-	        // -- default 
-			// driver = new ChromeDriver();			
+	
 			
 		}
 
